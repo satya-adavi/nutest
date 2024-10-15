@@ -21,7 +21,6 @@ def main():
     t2.join()
     print("Checking current directory",os.curdir)
     input_file_path = os.path.join(os.curdir, 'sub_folder', 'inp.txt')
-    # Read inputs from the file
     inputs = read_input_from_file(input_file_path)
     print(inputs)
 
