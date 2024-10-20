@@ -1,5 +1,5 @@
 from factorial import factorial
-from fibonacci import fibonacci
+from fibonacci import fibo
 from temp import func1
 from temp import func2
 import threading
@@ -9,7 +9,7 @@ import os
 def main():
     n=int(input("enter a value"))
     print("Factorial of "+str(n)+":", factorial(n))
-    print("First "+str(n)+" Fibonacci numbers:", fibonacci(n))
+    print("First "+str(n)+" Fibonacci numbers:", (fibo(0,1,0,n)))
 
     t1 = threading.Thread(target=func1)
     t2 = threading.Thread(target=func2)
