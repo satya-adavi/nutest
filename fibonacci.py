@@ -25,4 +25,4 @@ def fibo(a, b, start, end):
         return fibo(a, b,start,end)
     else:
         return c
-fibo(0,1,1,6)
+# fibo(0,1,1,6)
